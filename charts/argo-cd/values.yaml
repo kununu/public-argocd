@@ -1,0 +1,5 @@
+argo-cd:
+  fullnameOverride: argo-cd
+
+argocdPrivateRepoSecret:
+  enabled: false

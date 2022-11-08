@@ -1,0 +1,10 @@
+apiVersion: v2
+name: one-password-connect
+description: One Password Connect Helm Chart
+maintainers:
+  - name: Kununu Sparrow
+version: 1.0.0
+dependencies:
+  - name: connect
+    version: "1.8.1"
+    repository: "https://1password.github.io/connect-helm-charts"

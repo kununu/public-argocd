@@ -1,0 +1,14 @@
+external-secrets:
+  installCRDs: true
+  crds:
+    createClusterExternalSecret: true
+    createClusterSecretStore: true
+  createOperator: true
+  image:
+    repository: "ghcr.io/external-secrets/external-secrets"
+    tag: "v0.6.0"
+  fullnameOverride: external-secrets
+clusterSecretStore:
+  enabled: true
+externalSecret:
+  enabled: true

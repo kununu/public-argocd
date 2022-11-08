@@ -1,0 +1,15 @@
+dependencies:
+- name: one-password-connect
+  repository: file://../1password-connect
+  version: 1.0.0
+- name: external-secrets
+  repository: file://../external-secrets
+  version: 1.0.0
+- name: argo-cd
+  repository: https://argoproj.github.io/argo-helm
+  version: 5.6.0
+- name: base-bundle
+  repository: file://../../apps/base-bundle
+  version: 0.1.0
+digest: sha256:a897ffe8d559ceeaf7b8ccb8777a6948177fc66f1c972e7ca5962afac400bca3
+generated: "2022-11-08T12:05:58.230012Z"

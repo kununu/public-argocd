@@ -1,0 +1,5 @@
+connect:
+  connect:
+    serviceType: ClusterIP
+    # The credentials secret name (defaults to 1password-credentials.json secret key)
+    credentialsName: connect-server-credentials
