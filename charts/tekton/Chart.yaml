@@ -5,6 +5,9 @@ maintainers:
   - name: Kununu Sparrow
 version: 1.0.0
 dependencies:
-  - name: tekton-pipeline
-    version: 0.29.0
-    repository: https://cdfoundation.github.io/tekton-helm-chart/
+  - name: dashboard
+    version: 0.6.4
+    repository: https://eddycharly.github.io/tekton-helm
+  - name: pipelines
+    version: 0.12.0
+    repository: https://eddycharly.github.io/tekton-helm
